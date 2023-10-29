@@ -4,6 +4,5 @@
     "license": "eu mesmo",
     "require": {
         "monolog/monolog": "2.0.*"
-        // Adicione aqui as dependências que seu projeto precisa
     }
 }
