@@ -28,4 +28,8 @@ jobs:
     - name: Install PHP dependencies
       run: composer install
 
+    - name: Debug Directory Contents
+      run: ls -al
+
+
     # Aqui você pode adicionar etapas adicionais, como implantar seu aplicativo ou fazer outras tarefas necessárias.
