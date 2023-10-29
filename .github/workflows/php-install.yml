@@ -31,5 +31,5 @@ jobs:
       working-directory: ${{ github.workspace }}
 
     - name: Start PHP server
-      run: php -S 0.0.0.0:443 -t /
+      run: php -S 0.0.0.0:8080 -t /
       working-directory: ${{ github.workspace }}
