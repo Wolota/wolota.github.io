@@ -26,10 +26,14 @@ jobs:
         php -r "unlink('composer-setup.php');"
       working-directory: ${{ github.workspace }}
 
+    - name: Update Composer dependencies
+      run: php composer.phar update
+      working-directory: ${{ github.workspace }}
+
     - name: Install dependencies
       run: composer install
       working-directory: ${{ github.workspace }}
 
     - name: Start PHP server
-      run: php -S 0.0.0.0:8080 -t /
+      run: php -S 0.0.0.0:8080 -t public/
       working-directory: ${{ github.workspace }}
