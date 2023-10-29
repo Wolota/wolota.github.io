@@ -1,7 +1,14 @@
 {
     "name": "wolota/sigaa-estract",
     "description": "Extrair dados",
-    "license": "eu mesmo",
+    "license": [
+        {
+            "name": "Nils Adermann",
+            "email": "naderman@naderman.de",
+            "homepage": "https://www.naderman.de",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "monolog/monolog": "2.0.*"
     }
